@@ -1,0 +1,2 @@
+[vagranthost]
+localhost ansible_connection=local

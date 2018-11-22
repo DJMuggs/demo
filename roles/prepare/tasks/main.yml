@@ -1,0 +1,11 @@
+---
+- name: install libvirt
+  yum:
+    name: libvirt
+    state: present
+
+- name: install vagrant and vagrant-libvirt
+  yum:
+    name: vagrant,vagrant-libvirt
+    state: present
+

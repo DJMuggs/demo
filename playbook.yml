@@ -1,0 +1,7 @@
+- name: Setup and configure Vagrant with libvirt
+  hosts: vagranthost
+  roles:
+    - role: prepare
+  become: true
+  become_user: root
+  become_method: sudo
