@@ -6,11 +6,11 @@ Clone the repo and enter the challenge directory.
 
 Run the playbook to prepare you hosts for this demo.
 
-Add the username you want have access to libvirt to allow `vagrant up`
+Add the username you want to have access to libvirt to allow ```vagrant up```
 
-`ansible-playbook -i inventory/hosts playbook.yml -K -e user=$username`
+```ansible-playbook -i inventory/hosts playbook.yml -K -e user=$username```
 
-Run `vagrant up` and you should be set.
+Run ```vagrant up``` and you should be set.
 
 Now 2 docker images are build and deployed on the vagrant host.
 Node.js image that will show the docker container hostname
