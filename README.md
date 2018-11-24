@@ -1,7 +1,8 @@
 # This is a docker demo using Vagrant and libvirt
 
 The demo is based on a Fedora 28 installation, will also work @ CentOS 7.
-Fedora 29 seems a bit unstable at the moment with Vagrant.
+
+!!! Fedora 29 seems a bit unstable at the moment with Vagrant, so don't use it. !!!
 
 Clone the repo and enter the challenge directory.
 
