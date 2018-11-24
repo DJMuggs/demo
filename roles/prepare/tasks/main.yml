@@ -30,7 +30,7 @@
 
 - name: install requirements for vagrant
   yum:
-    name: libxslt-devel,libxml2-devel,libvirt-devel,libguestfs-tools-c,ruby-devel,gcc,rsync
+    name: libxslt-devel,libxml2-devel,libvirt-devel,libguestfs-tools-c,ruby-devel,gcc,rsync,libselinux-python
     state: present
 
 - name: install vagrant and vagrant-libvirt
