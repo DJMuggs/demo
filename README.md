@@ -23,3 +23,11 @@ Capture the IP address from the vagrant deployment.
 Use a browser to go to http://$captured_ip for the loadbalancing test
 
 Use a browser to go to http://$captured_ip:70 for the haproxy stats
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
